@@ -1,0 +1,156 @@
+body
+{
+	background-image: url(https://iconape.com/wp-content/files/mn/120684/png/Android_robot_head.png);
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+h1 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.robots {
+	display: flex;
+	justify-content: center;
+}
+
+.head, 
+.left_arm, 
+.torso, 
+.right_arm, 
+.left_leg, 
+.right_leg {
+	 background-color: #46eb34;
+}
+
+.head { 
+	width: 200px; 
+	margin: 0 auto; 
+	height: 150px; 
+	border-radius: 200px 200px 0 0; 
+	margin-bottom: 40px;
+} 
+
+.upper_body { 
+	width: 300px; 
+	height: 150px;
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+} 
+
+.left_arm, .right_arm { 
+	width: 40px; 
+	height: 125px;
+	border-radius: 100px; 
+} 
+
+.left_arm { 
+	margin-right: 10px; 
+} 
+.left_arm:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+.right_arm { 
+	margin-left: 10px; 
+} 
+.right_arm:hover {
+	-webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    -ms-transform: rotate(-0deg);
+    transform: rotate(-20deg);
+}
+.torso { 
+	width: 200px; 
+	height: 200px;
+	border-radius: 0 0 50px 50px; 
+	-webkit-transition: background-color 2s ease-out;
+	-moz-transition: background-color 2s ease-out;
+	-o-transition: background-color 2s ease-out;
+	transition: background-color 2s ease-out;
+} 
+.torso:hover
+{ 
+	background-color:#b8e695;
+	width: 200px; 
+	height: 200px;
+	border-radius: 0 0 50px 50px; 
+} 
+
+.lower_body { 
+	width: 200px; 
+	height: 200px;
+	/* This is another useful property. Hmm what do you think it does?*/
+	margin: 0 auto;
+
+} 
+
+.left_leg, .right_leg { 
+	margin-top: 30px;
+	display: inline-block;
+	width: 40px; 
+	height: 120px;
+	border-radius: 0 0 100px 100px; 
+} 
+
+.left_leg { 
+	margin-left: 45px;
+} 
+
+.left_leg:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+.right_leg { 
+	margin-left: 15px;
+}
+.right_leg:hover {
+	-webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+
+.left_eye, .right_eye { 
+	display: inline-block;
+	width: 20px; 
+	height: 20px; 
+	border-radius: 15px; 
+	background-color:white; 
+	transition: background-color 2s ease-out;
+} 
+
+.left_eye { 
+	/* These properties are new and you haven't encountered
+	in this course. Check out CSS Tricks to see what it does! */
+	position: relative; 
+	top: 100px; 
+	left: 40px; 
+} 
+.right_eye { 
+	position: relative; 
+	top: 100px; 
+	left: 120px; 
+}
+.left_eye:hover { 
+	background-color: red;
+} 
+.right_eye:hover { 
+	background-color: red;
+} 
+
+
+
+
+
+
